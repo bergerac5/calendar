@@ -40,7 +40,6 @@ var day30MonthArr =[
     "March",
     "June",
     "september",
-    "Octobar",
     "Novembar",
 ]
 
@@ -73,10 +72,10 @@ function generateCalender () {
         days = 28;
     } else if (obj.m ==="February" && obj.yr % 4 === 0) {
         days = 29;
-    } else if (day31MonthArr.includes(obj.m)) {
-        days = 31;
-    } else {
+    } else if (day30MonthArr.includes(obj.m)) {
         days = 30;
+    } else {
+        days = 31;
     }
 
     var localDayArr  = [

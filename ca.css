@@ -67,7 +67,7 @@ body::before {
     box-sizing: border-box;
 }
 
-.calender_day {
+.calender__day {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,11 +76,11 @@ body::before {
     color: #262626;
 }
 
-.calender_day:nth-child(7) {
+.calender__day:nth-child(7) {
     color: rgb(0, 255, 0);
 }
 
-.calender_number {
+.calender__number {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -88,13 +88,13 @@ body::before {
     color: #262626;
 }
 
-.calender_number:nth-child(7n) {
+.calender__number:nth-child(7n) {
     color: rgb(0, 255, 0);
     font-weight: 700;
 }
 
-.calender_number--current,
-.calender_number:hover {
+.calender__number--current,
+.calender__number:hover {
     background-color: #009688;
     color: #fff;
     font-weight: 700;

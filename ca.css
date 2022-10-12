@@ -85,7 +85,7 @@ body::before {
     align-items: center;
     justify-content: center;
     height: 25px;
-    color: #262626;
+    color: blue;
 }
 
 .calender__number:nth-child(7n) {
@@ -96,7 +96,7 @@ body::before {
 .calender__number--current,
 .calender__number:hover {
     background-color: #009688;
-    color: #fff;
+    color: blue;
     font-weight: 700;
     cursor: pointer;
 }
